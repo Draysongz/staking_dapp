@@ -1,0 +1,123 @@
+.stakeContainer{
+    background-color: #005857;
+    height:60vh;
+    width:80vw;
+    padding:2%;
+    border-radius: 30px;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.first{
+    display:flex;
+    gap: 15%;
+    padding:2%;
+}
+.am h3{
+    /* background-color:green;
+   background-image:linear-gradient(45deg,#054823,#46d40a);
+   background-size: 100%;
+   background-repeat: repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color:transparent; */
+   color:rgb(13, 221, 13);
+}
+
+.second{
+    display:flex;
+    gap:15%;
+    padding:1.5%;
+}
+
+.deposit h4, .share h4, .earnings h4{
+    color:#b2cdcc;
+}
+.deposit, .earnings, .share{
+    padding:2%;
+    line-height:45px
+}
+.amount{
+    display:flex;
+}
+.amount h4{
+    margin-top:5%;
+}
+.amount h3{
+    font-size: 40px;
+}
+
+.share h3{
+    font-size: 40px;
+}
+.earn{
+    display:flex;
+}
+.earn h4{
+    margin-top:7%;
+}
+.earn h3{
+    font-size: 40px;
+    color:rgb(13, 221, 13);
+}
+
+.liquid{
+    width:15vw;
+    height:7vh;
+    border-radius: 10px;
+    background:#9ea4a465;
+    border: 1px ;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding:1%;
+    color:white;
+    outline:none;
+}
+
+.liquid::placeholder{
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding:1%;
+}
+
+.add{
+    width:7vw;
+    height:7vh;
+    border-radius: 10px;
+    background:#9ea4a47f;
+    border: 1px ;
+    text-align: center; 
+    color:rgb(13, 221, 13);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    padding:1%; 
+    cursor:pointer;
+}
+.third{
+    display:flex;
+    gap:2%;
+}
+.title h2{
+    text-align:center;
+}
+.title{
+    padding:3%;
+}
+.staket{
+    display: flex;
+    gap: 16%;
+    padding:.5%;
+    font-size:small;
+    margin-left: 4%;
+    color:#b2cdcc;
+}
+.line{
+    display:block;
+    border:.5px solid #b2cdcc55;
+    font-size:smaller;
+}

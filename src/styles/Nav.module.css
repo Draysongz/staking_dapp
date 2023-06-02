@@ -1,0 +1,79 @@
+
+
+.navContainer{
+    padding:1%;
+    display:flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    
+  
+  }
+  
+  .navContainer li {
+    list-style-type: none;
+  }
+  
+  .connectBtn{
+   width: 10vw;
+   height: 7vh;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   padding: .3rem;
+   font-size: medium;
+   border-radius:10px;
+   border:1px solid ;
+   color:#fff;
+   background: #005857;
+  } 
+  .vote{
+    background: #005857;
+    color:#fff;
+    padding:2%;
+    border-radius:5px;
+  }
+  
+  .vote:hover{
+    background:transparent;
+    color:white;
+    border: 1px solid rgb(199, 228, 33);
+    cursor:pointer;
+    transition: .5s ease-in;
+  }
+  
+  .connectBtn:hover{
+    background:transparent;
+    color:white;
+    border: 1px solid rgb(199, 228, 33);
+    cursor:pointer;
+    transition: .5s ease-in;
+  }
+  @media only screen and (min-width:100px) and (max-width:375px){
+    .connectBtn{
+      width: 39vw;
+      height: 7vh;
+      padding: 0 !important;
+    }
+    .navContainer{
+      padding:4%;
+    }
+    .navContainer li{
+      margin-top: 4%;
+    }
+  }
+  
+  
+  @media only screen and (min-width:376px) and (max-width:600px){
+    .connectBtn{
+      width: 39vw;
+      height: 7vh;
+      padding: 0 !important;
+    }
+    .navContainer{
+      padding:4%;
+    }
+    .navContainer li{
+      margin-top: 4%;
+    }
+  }
